@@ -1,4 +1,4 @@
-# Next.js Telo Shop
+# Next.js Delivery Shop
 
 Para correr localmente, se necesita la base de datos.
 
