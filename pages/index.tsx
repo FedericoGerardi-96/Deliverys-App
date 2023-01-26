@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { ICategory } from "../interface";
 import Navbar from "../components/navbar/Navbar";
 
+
 export default function Home() {
   const [categories, setcategorys] = useState<ICategory[]>();
 
