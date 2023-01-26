@@ -4,6 +4,7 @@ import { DeliveryLayout } from "../components/layout";
 import deliveryApi from "../api/deliveryApi";
 import { useEffect, useState } from "react";
 import { ICategory } from "../interface";
+import Navbar from "../components/navbar/Navbar";
 
 export default function Home() {
   const [categories, setcategorys] = useState<ICategory[]>();
@@ -18,7 +19,8 @@ export default function Home() {
   };
 
   return (
-    <DeliveryLayout title={"Delivery App"} pageDescription={"Delivery App"}>
+    <>
+      {/* <DeliveryLayout title={"Delivery App"} pageDescription={"Delivery App"}>
       <ul>
         {categories?.map(({ name }, any) => {
           return (
@@ -28,6 +30,9 @@ export default function Home() {
           );
         })}
       </ul>
-    </DeliveryLayout>
+    </DeliveryLayout> */}
+
+    <Navbar />
+    </>
   );
 }
