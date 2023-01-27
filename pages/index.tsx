@@ -5,6 +5,8 @@ import deliveryApi from "../api/deliveryApi";
 import { useEffect, useState } from "react";
 import { ICategory } from "../interface";
 import Navbar from "../components/navbar/Navbar";
+import Card from "../components/card/Card";
+import Categories from "../components/categories/Categories";
 
 
 export default function Home() {
@@ -34,6 +36,8 @@ export default function Home() {
     </DeliveryLayout> */}
 
     <Navbar />
+    <Categories />
+    <Card />
     </>
   );
 }
