@@ -14,34 +14,6 @@ const Navbar = () => {
     <>
         {/* <h1 className='text-3xl font-bold underline hover:text-[#f3f3f3]'>Navbar</h1> */}
 
-        {/* <div className='flex'>
-            <div className="w-1/3">
-                <Image
-                    src={NoblezaImg}
-                    alt="Nobleza Logo"
-                    style={{
-                    width: '100px',
-                    height: '100px',
-                    }}
-                />
-            </div>
-            <div className="w-2/3 flex flex-nowrap">
-                <div className="w-1/3">menu HOLA</div>
-                <div className="w-1/3">menu 2</div>
-                <div className="w-1/3">menu 3</div>
-            </div>
-            <div className="w-3/3">
-                <FontAwesomeIcon
-                    icon={faCartShopping}
-                    style={{ fontSize: 50, color: "#E86A12" }}
-                />
-            </div>
-        </div> */}
-
-
-
-        {/* ----------------------------- */}
-
       <nav className="px-2 sm:px-4 py-2.5 bg-orange-50 fixed w-full z-20 top-0 left-0 border-b">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <div className="flex">
