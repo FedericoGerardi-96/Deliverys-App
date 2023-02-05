@@ -7,7 +7,7 @@ import { ICategory } from "../interface";
 import Navbar from "../components/navbar/Navbar";
 import Card from "../components/card/Card";
 import Categories from "../components/categories/Categories";
-
+import { Slider } from "../components/categories/slider";
 
 export default function Home() {
   const [categories, setcategorys] = useState<ICategory[]>();
@@ -35,9 +35,9 @@ export default function Home() {
       </ul>
     </DeliveryLayout> */}
 
-    <Navbar />
-    <Categories />
-    <Card />
+      <Navbar />
+      <Categories />
+      <Card />
     </>
   );
 }
